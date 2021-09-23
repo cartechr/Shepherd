@@ -69,7 +69,7 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Mini First Person Controller\Scripts\Sheep_AI.cs" />
+    <Compile Include="Assets\Scripts\Sheep_AI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Invector-3rdPersonController_LITE\README_Basic.txt" />
