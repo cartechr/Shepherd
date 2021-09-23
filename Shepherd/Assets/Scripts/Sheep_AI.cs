@@ -6,6 +6,7 @@ public class Sheep_AI : MonoBehaviour
 {
     GameObject[] Sheep;
     public float SpaceBetween = 1.5f;
+    public float Speed;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class Sheep_AI : MonoBehaviour
                 float distance = Vector3.Distance(go.transform.position, this.transform.position);
                 if (distance <= SpaceBetween)
                 {
-                    Vector3 direction = transform.position - go.transform.position;
+                    Vector3 direction = transform.position - go.transform.position * Speed;
                     transform.Translate(direction * Time.deltaTime);
                 }
             }
