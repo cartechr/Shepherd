@@ -5,7 +5,7 @@ using UnityEngine;
 public class Sheep_AI : MonoBehaviour
 {
     GameObject[] Sheep;
-    public float SpaceBetween = 1.5f;
+    public float SpaceBetween;
     public float Speed;
 
     void Start()
