@@ -244,7 +244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295310884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.34, y: 2.08, z: -17.41}
+  m_LocalPosition: {x: 39.9, y: 2.08, z: -17.41}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 691030516}
@@ -356,7 +356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397748422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.39, y: 2.08, z: -17.41}
+  m_LocalPosition: {x: 79.3, y: 2.08, z: -17.41}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 691030516}
@@ -464,7 +464,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691030515}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.07, y: -0.98291206, z: 19.6}
+  m_LocalPosition: {x: -3.07, y: -0.98291206, z: 21.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2062933746}
@@ -573,6 +573,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &995442734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1420919367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &995442740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995442734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5377640a1299ee5488581c422cf6d577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1133112114
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,11 +629,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133112114}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
+  m_IsTrigger: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1.7350658, y: 1, z: 1.1598098}
-  m_Center: {x: 0.07448739, y: 0, z: 0.5473126}
+  m_Size: {x: 5.6140823, y: 2.142541, z: 1.8501418}
+  m_Center: {x: -0.0050024986, y: -0.57127047, z: 0.8924786}
 --- !u!1 &1150948598
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +884,7 @@ GameObject:
   - component: {fileID: 2062933749}
   - component: {fileID: 2062933748}
   - component: {fileID: 2062933747}
+  - component: {fileID: 2062933751}
   m_Layer: 0
   m_Name: Sheep_1
   m_TagString: Sheep
@@ -966,3 +984,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062933745}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2062933751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062933745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83505d75d4843c1499cb94351df02038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sheep_vertical: 0
+  player_vertical: {fileID: 995442740}

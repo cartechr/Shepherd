@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SheepCollider : MonoBehaviour
+public class Sheep_Movement : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
