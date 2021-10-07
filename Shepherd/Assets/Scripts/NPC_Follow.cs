@@ -23,3 +23,5 @@ public class NPC_Follow : MonoBehaviour
         agent.destination = transformToFollow.position;
     }
 }
+
+// https://sharpcoderblog.com/blog/npc-follow-player-in-unity-3d //
