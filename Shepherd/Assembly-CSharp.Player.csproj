@@ -85,6 +85,8 @@
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Flocking\scripts\Flocking\iRule.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Detect_Enemy_Script.cs" />
+    <Compile Include="Assets\Scripts\Fox_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Flocking\Resources\default.xml" />

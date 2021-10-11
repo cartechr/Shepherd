@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
     <Compile Include="Assets\Flocking\scripts\GameManager.cs" />
     <Compile Include="Assets\Flocking\scripts\Flocking\Alignment.cs" />
@@ -75,12 +72,10 @@
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Scripts\Sheep_Food.cs" />
     <Compile Include="Assets\Flocking\scripts\Flocking\Boid.cs" />
-    <Compile Include="Assets\Scripts\Fox_Script.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Flocking\scripts\exampleScene.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
-    <Compile Include="Assets\Scripts\Detect_Enemy_Script.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
@@ -90,6 +85,8 @@
     <Compile Include="Assets\Prefabs\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Flocking\scripts\Flocking\iRule.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Detect_Enemy_Script.cs" />
+    <Compile Include="Assets\Scripts\Fox_Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Flocking\Resources\default.xml" />
