@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Detect_Enemy_Script : MonoBehaviour
 {
-    public GameObject Fox;
+    public GameObject Coyote;
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Fox"))
+        if (other.gameObject.CompareTag("Coyote"))
         {
-            Debug.Log("Detected Fox");
+            Debug.Log("Detected Coyote");
             if(Input.GetMouseButtonDown(0))
             {
-                Debug.Log("Kill Fox");
-                Fox.SetActive(false);
+                Debug.Log("Kill Coyote");
+                Coyote.SetActive(false);
             }
 
         }
