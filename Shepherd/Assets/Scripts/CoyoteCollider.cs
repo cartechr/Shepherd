@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class CoyoteCollider : MonoBehaviour
 {
-    //public Coyote_Script target;
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if (other.gameObject.CompareTag("Sheep"))
-        {
-            Debug.Log("Detected Sheep");
-        }
+        
     }
 }

@@ -89,6 +89,7 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\CoyoteCollider.cs" />
     <Compile Include="Assets\Scripts\Coyote_Script.cs" />
+    <Compile Include="Assets\Scripts\Food_Sys.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Flocking\Resources\default.xml" />
