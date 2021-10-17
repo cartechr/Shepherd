@@ -319,7 +319,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!154 &214035660
 TerrainCollider:
@@ -436,7 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
@@ -458,6 +458,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6a4eb8e0e9d83f34e980b93c48750d5c, type: 2}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: disablesheep
       value: 
@@ -537,7 +545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
@@ -550,6 +558,18 @@ PrefabInstance:
     - target: {fileID: 2917134637660614426, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StoppingDistance
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: disablesheep
@@ -625,6 +645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coyote_NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 3765434622118915480, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3765434622118915481, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -677,6 +701,14 @@ PrefabInstance:
       propertyPath: target1
       value: 
       objectReference: {fileID: 83316234}
+    - target: {fileID: 3765434622404218918, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3765434622636965340, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
 --- !u!4 &1159652667 stripped
@@ -700,7 +732,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!154 &1228872105
 TerrainCollider:
@@ -1096,7 +1128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
@@ -1110,6 +1142,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 55c4863bec81e7d4ca4988425f103a31, type: 2}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614438, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: disablesheep
       value: 
