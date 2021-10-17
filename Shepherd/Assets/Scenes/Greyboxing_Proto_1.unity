@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83316234}
   m_Layer: 0
-  m_Name: CoyoteTarget1
+  m_Name: CoyoteTarget_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,6 +701,10 @@ PrefabInstance:
       propertyPath: target1
       value: 
       objectReference: {fileID: 83316234}
+    - target: {fileID: 3765434622118915485, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: sheeptarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3765434622404218918, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
