@@ -21,7 +21,7 @@ public class Coyote_Script : MonoBehaviour
         if(other.gameObject.CompareTag("Sheep"))
         {
             Debug.Log("Detected Sheep");
-            //CoyoteAgent.enabled = false;
+            CoyoteAgent.enabled = false;
             sheeptarget = true;
         }
     }
@@ -29,7 +29,7 @@ public class Coyote_Script : MonoBehaviour
     {
         if (sheeptarget == true)
         {
-            //this.gameObject.transform.position = sheep.position;
+            this.gameObject.transform.position = sheep.position;
         }
         sheeptarget = false;
     }
