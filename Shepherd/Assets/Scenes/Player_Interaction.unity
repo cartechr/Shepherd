@@ -281,6 +281,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.64
       objectReference: {fileID: 0}
+    - target: {fileID: 54063890643546284, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: m_Mass
+      value: 0.0000001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
 --- !u!1 &204000456
@@ -615,6 +619,7 @@ GameObject:
   - component: {fileID: 656481396}
   - component: {fileID: 656481399}
   - component: {fileID: 656481400}
+  - component: {fileID: 656481401}
   m_Layer: 0
   m_Name: Sheep (2)
   m_TagString: Untagged
@@ -734,6 +739,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformToFollow: {fileID: 677418152}
+--- !u!54 &656481401
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656481394}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &677418152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
