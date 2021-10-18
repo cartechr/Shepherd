@@ -5,15 +5,15 @@ using UnityEngine.AI;
 
 public class Coyote_Script : MonoBehaviour
 {
-    NavMeshAgent CoyoteAgent;
+    public NavMeshAgent navMeshAgent;
+    public Transform[] waypoints;
+    int m_CurrentWaypointIndex;
+
     public Transform sheep;
-    public Transform target1;
     public bool sheeptarget = false;
     private void Start()
     {
-        CoyoteAgent = GetComponent<NavMeshAgent>();
-        CoyoteAgent.destination = target1.position;
-        
+        navMeshAgent.SetDestination(waypoints[0].position);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -21,16 +21,25 @@ public class Coyote_Script : MonoBehaviour
         if(other.gameObject.CompareTag("Sheep"))
         {
             Debug.Log("Detected Sheep");
-            CoyoteAgent.enabled = false;
             sheeptarget = true;
         }
     }
-    private void FixedUpdate()
+    private void Update()
     {
+        if (sheeptarget == false)
+        {
+            if(navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance)
+            {
+                m_CurrentWaypointIndex = (m_CurrentWaypointIndex + 1) % waypoints.Length;
+                navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
+            }
+        }
         if (sheeptarget == true)
         {
-            this.gameObject.transform.position = sheep.position;
+            navMeshAgent.SetDestination (sheep.position);
         }
+
+        
         sheeptarget = false;
     }
 }

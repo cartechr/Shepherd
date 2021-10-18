@@ -12,7 +12,7 @@ public class Sheep_AI : MonoBehaviour
     {
         if (disablesheep.sheeptarget == true)
         {
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
             Debug.Log("Coyote Killed Sheep");
         }
     }
