@@ -672,7 +672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 734.50995
+      value: 727.7
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -841,7 +841,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676246503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -995,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.51537
+      value: 71.1
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1003,7 +1003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 732.42993
+      value: 729.9
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1487,7 +1487,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014260310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1582,7 +1582,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092752918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2036,7 +2036,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334823584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2188,7 +2188,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545315884}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2321,7 +2321,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4050801952498915705, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73.98
+      value: 73.79
       objectReference: {fileID: 0}
     - target: {fileID: 4050801952498915705, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2329,7 +2329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4050801952498915705, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 730.42
+      value: 729.3
       objectReference: {fileID: 0}
     - target: {fileID: 4050801952498915705, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2382,7 +2382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 72.64538
+      value: 75.7
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2390,7 +2390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 732.42
+      value: 727.6
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637337611527, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_LocalRotation.w
