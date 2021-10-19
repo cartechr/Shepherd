@@ -13,7 +13,7 @@ public class Coyote_Script : MonoBehaviour
     public bool sheeptarget = false;
     private void Start()
     {
-        navMeshAgent.SetDestination(waypoints[0].position);
+        //navMeshAgent.SetDestination(waypoints[0].position);
     }
 
     private void OnTriggerEnter(Collider other)
