@@ -707,6 +707,10 @@ PrefabInstance:
       value: Sheep (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -746,7 +750,8 @@ PrefabInstance:
       propertyPath: disablesheep
       value: 
       objectReference: {fileID: 825291336}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
 --- !u!1 &470242129
 GameObject:
@@ -943,8 +948,8 @@ MonoBehaviour:
   slider: {fileID: 690879134}
   gradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 1, g: 0.02846875, b: 0, a: 1}
+    key1: {r: 1, g: 0.02846875, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -967,10 +972,12 @@ MonoBehaviour:
     atime5: 0
     atime6: 0
     atime7: 0
-    m_Mode: 0
+    m_Mode: 1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 2098446307}
+  maxHealth: 100
+  currentHealth: 0
 --- !u!114 &690879134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,6 +1179,10 @@ PrefabInstance:
       value: Sheep (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -1207,8 +1218,27 @@ PrefabInstance:
       propertyPath: disablesheep
       value: 
       objectReference: {fileID: 825291336}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+--- !u!1 &847010093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6647859311754738183, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+  m_PrefabInstance: {fileID: 993568886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &847010098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847010093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d9eb7dfbbb65c48942211957b320ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sheep: {fileID: 690879133}
 --- !u!1001 &854708412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1451,6 +1481,18 @@ PrefabInstance:
       propertyPath: m_BaseOffset
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3249127664860129625, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_Radius
+      value: 0.88291574
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249127664860129625, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_Center.x
+      value: -0.13806152
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249127664860129625, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: m_Center.z
+      value: 0.00006108381
+      objectReference: {fileID: 0}
     - target: {fileID: 3765434622118915480, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
       propertyPath: m_Name
       value: Coyote_NPC
@@ -1623,6 +1665,10 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.41974092
       objectReference: {fileID: 0}
+    - target: {fileID: 3765434622636965343, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+      propertyPath: sheep
+      value: 
+      objectReference: {fileID: 690879133}
     - target: {fileID: 6830701050670181377, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7408
@@ -1642,6 +1688,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3765434622118915482, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
     - {fileID: 7523145769881780407, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
+    - {fileID: 3765434622636965343, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c0018728331bd49459ee64eb394ee5d9, type: 3}
 --- !u!1 &1014260310
 GameObject:
@@ -2717,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 4156650242461558453, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
 --- !u!1 &1703255413
@@ -2875,6 +2926,10 @@ PrefabInstance:
       value: Sheep
       objectReference: {fileID: 0}
     - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: m_TagString
+      value: Sheep
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614424, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -2902,7 +2957,8 @@ PrefabInstance:
       propertyPath: disablesheep
       value: 
       objectReference: {fileID: 825291336}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2917134637660614439, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
 --- !u!1 &1900018298
 GameObject:
