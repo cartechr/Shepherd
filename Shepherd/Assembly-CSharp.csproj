@@ -58,7 +58,6 @@
     <Compile Include="Assets\Flocking\scripts\Flocking\Alignment.cs" />
     <Compile Include="Assets\Scripts\NPC_Follow.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
-    <Compile Include="Assets\Scripts\Sheep_AI.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Scripts\Food_Sys.cs" />
@@ -93,7 +92,6 @@
     <Compile Include="Assets\Flocking\scripts\Flocking\iRule.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\SheepHUD.cs" />
-    <Compile Include="Assets\Scripts\Sheep_Event.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Flocking\Resources\default.xml" />

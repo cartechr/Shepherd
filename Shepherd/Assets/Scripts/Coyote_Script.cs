@@ -32,11 +32,13 @@ public class Coyote_Script : MonoBehaviour
             {
                 m_CurrentWaypointIndex = (m_CurrentWaypointIndex + 1) % waypoints.Length;
                 navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
+                Debug.Log("Stay");
             }
         }
         if (sheeptarget == true)
         {
             navMeshAgent.SetDestination (sheep.position);
+            Debug.Log("Go to Sheep");
         }
 
         

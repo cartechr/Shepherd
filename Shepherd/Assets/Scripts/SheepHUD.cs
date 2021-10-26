@@ -10,7 +10,31 @@ public class SheepHUD : MonoBehaviour
 	public Gradient gradient;
 	public Image fill;
 
-	public void SetMaxHealth(int health)
+	public int maxHealth;
+	public int currentHealth;
+
+
+    private void Start()
+    {
+		currentHealth = maxHealth;
+		this.SetMaxHealth(maxHealth);
+    }
+
+	public void TakeDamage(int damage)
+    {
+		if (currentHealth != 0)
+        {
+			currentHealth -= damage;
+			this.SetHealth(currentHealth);
+			Debug.Log("Sheep Took Damage");
+		}
+		if (currentHealth == 0)
+        {
+			this.gameObject.SetActive(false);
+			Debug.Log("Coyote Killed Sheep");
+        }
+    }
+    public void SetMaxHealth(int health)
 	{
 		slider.maxValue = health;
 		slider.value = health;
