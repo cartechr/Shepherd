@@ -92,10 +92,12 @@
     <Compile Include="Assets\Flocking\scripts\Flocking\iRule.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\SheepHUD.cs" />
+    <Compile Include="Assets\Desert Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Flocking\Resources\default.xml" />
     <None Include="Assets\Prefabs\Invector-3rdPersonController_LITE\README_Basic.txt" />
+    <None Include="Assets\Desert Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Flocking\Resources\dataStorage.xml" />
   </ItemGroup>
   <ItemGroup>
