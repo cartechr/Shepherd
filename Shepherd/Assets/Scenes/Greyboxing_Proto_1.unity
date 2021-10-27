@@ -2760,6 +2760,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Person Controller Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4067101958627964875, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
+      propertyPath: far clip plane
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067101958627964875, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4105513442267612151, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
       propertyPath: m_Mass
       value: 0.001
