@@ -58,8 +58,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Utilities\MenuUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Components\IconButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Components\SearchBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Components\IconButton.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Utilities\Threading.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Views\MainPageView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.7.1\Editor\Collaborate\Models\HistoryModel.cs" />
@@ -783,6 +783,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Settings.Editor.csproj">
+      <Project>{19963DAC-4446-3E29-0A7B-6F99630D18A2}</Project>
+      <Name>Unity.Settings.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{819632CB-483C-4E84-20EF-961588405836}</Project>
       <Name>UnityEditor.UI</Name>

@@ -9,7 +9,8 @@ public class NPC_Follow : MonoBehaviour
     public Transform transformToFollow;
     //NavMesh Agent variable
     NavMeshAgent agent;
-
+    //bool to check if sheep should follow player or not
+    public Player follow;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,17 @@ public class NPC_Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Follow the player
-        agent.destination = transformToFollow.position;
+        //checks if sheep should follow player or not
+        if (follow.followplayer == true)
+        {
+            //Follow the player
+            agent.destination = transformToFollow.position;
+            agent.isStopped = false;
+        }
+        if (follow.followplayer == false)
+        {
+            agent.isStopped = true;
+        }
     }
 }
 

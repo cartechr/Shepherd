@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SheepCollider : MonoBehaviour
 {
-    public Player_Position location;
+    //public Player_Position location;
     public Sheep_Transform sheep;
 
     private void OnTriggerStay(Collider other)
