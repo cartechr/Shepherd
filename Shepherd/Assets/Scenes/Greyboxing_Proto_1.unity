@@ -503,6 +503,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4053214869257290449, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
   m_PrefabInstance: {fileID: 1668889492}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &313951607 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 995442740, guid: 0d9c2443c2f03174ca8df705c8ad6275, type: 3}
+  m_PrefabInstance: {fileID: 1668889492}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313951606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5377640a1299ee5488581c422cf6d577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &313951613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +725,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: follow
+      value: 
+      objectReference: {fileID: 313951607}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
       value: 
@@ -1186,6 +1201,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: follow
+      value: 
+      objectReference: {fileID: 313951607}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
       value: 
@@ -2977,6 +2996,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
+      propertyPath: follow
+      value: 
+      objectReference: {fileID: 313951607}
     - target: {fileID: 2917134637660614425, guid: c3eaa44d73fed1d4eac9c5e67e81056c, type: 3}
       propertyPath: transformToFollow
       value: 
