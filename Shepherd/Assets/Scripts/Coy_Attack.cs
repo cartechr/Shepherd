@@ -8,7 +8,7 @@ public class Coy_Attack : StateMachineBehaviour
     public UnityEngine.AI.NavMeshAgent agent;
     public GameObject opponent;
 
-    //public override void OnstateEnter(Animator animator, AninmatorStateInfo stateinfo, int layerIndex)
+    //public override void OnStateEnter(Animator animator, AnimatorStateInfo stateinfo, int layerIndex)
     //{
         //NPC = animator.gameObject;
         //opponent = NPC.GetComponent<Coyote_NPC>().GetPlayer();
