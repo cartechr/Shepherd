@@ -20,17 +20,17 @@ public class NPC_Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //checks if sheep should follow player or not
-        if (follow.followplayer == true)
-        {
-            //Follow the player
-            agent.destination = transformToFollow.position;
-            agent.isStopped = false;
-        }
-        if (follow.followplayer == false)
-        {
-            agent.isStopped = true;
-        }
+            //checks if sheep should follow player or not
+            if (follow.followplayer == true)
+            {
+                //Follow the player
+                agent.destination = transformToFollow.position;
+                agent.isStopped = false;
+            }
+            if (follow.followplayer == false)
+            {
+                agent.isStopped = true;
+            }
     }
 }
 

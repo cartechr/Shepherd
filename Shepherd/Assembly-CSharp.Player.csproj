@@ -93,6 +93,8 @@
     <Compile Include="Assets\Materials\Flocking\scripts\UiManager.cs" />
     <Compile Include="Assets\Scripts\SheepCollider.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Eat_Sys.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Materials\Flocking\Resources\default.xml" />

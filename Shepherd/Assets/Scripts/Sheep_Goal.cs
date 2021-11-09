@@ -6,7 +6,6 @@ public class Sheep_Goal : MonoBehaviour
 {
     public Transform Goal;
     public float SpaceBetween;
-    public Sheep_Food Sheep;
 
     void Update()
     {
