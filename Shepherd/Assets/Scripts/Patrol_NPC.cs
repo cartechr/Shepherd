@@ -32,6 +32,7 @@ public class Patrol_NPC : StateMachineBehaviour
                 currentWP = 0;
             }
         }
+        //agent.SetDestination(waypoints[currentWP].transform.position);
         //rotation to target
         var direction = waypoints[currentWP].transform.position - Coyote_NPC.transform.position;
         Coyote_NPC.transform.rotation = Quaternion.Slerp(Coyote_NPC.transform.rotation, Quaternion.LookRotation(direction),
@@ -40,10 +41,11 @@ public class Patrol_NPC : StateMachineBehaviour
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+
+    }
+    
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -57,4 +59,4 @@ public class Patrol_NPC : StateMachineBehaviour
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
 }
-
+//https://www.youtube.com/watch?v=o011XuWOMmM 

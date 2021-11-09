@@ -42,6 +42,6 @@ public class Coyote_Script : MonoBehaviour
         }
 
         
-        sheeptarget = false;
+        //sheeptarget = false;
     }
 }

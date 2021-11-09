@@ -22,9 +22,9 @@ public class Sheep_Transform : MonoBehaviour
       // Debug.Log(transform.position);
    // }
 
-    public void sheep_infinite()
-    {
-        transform.Translate(userDirection * movespeed * Time.deltaTime);
+    //public void sheep_infinite()
+ //   {
+      //  transform.Translate(userDirection * movespeed * Time.deltaTime);
         
-    }
+    //}
 }

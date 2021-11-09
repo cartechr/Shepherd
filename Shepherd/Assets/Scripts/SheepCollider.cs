@@ -12,7 +12,7 @@ public class SheepCollider : MonoBehaviour
         if(other.gameObject.CompareTag("Sheep"))
         {
             Debug.Log("Success");
-            sheep.sheep_infinite();
+            //sheep.sheep_infinite();
         }
     }
 }
